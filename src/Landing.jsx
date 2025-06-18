@@ -16,7 +16,7 @@ const Landing = () => {
                     <h2 className="text-2xl font-bold text-gray-800 text-center">
                         Welcome to E-Commerce Website
                     </h2>
-                    <button className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
+                    <button className="px-6 py-3 bg-orange-400 text-white rounded-full hover:bg-slate-50 hover:border border-orange-400 hover:text-orange-400 transition duration-300">
                         <Link to="/product">Explore More</Link>
                     </button>
                 </div>

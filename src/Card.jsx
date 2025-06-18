@@ -10,7 +10,7 @@ const Card = ({imageUrl, hotelName, dishName, foodPrice,buttonText}) => {
                         <h2 class="text-xl font-semibold text-gray-800">{hotelName}</h2>
                         <p class="text-gray-600 text-sm mt-1">Dish: {dishName}</p>
                         <p class="text-lg font-bold text-green-600 mt-2">₹{foodPrice}</p>
-                        <button class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl transition duration-300">
+                        <button class="mt-4 w-full bg-blue-600 hover:bg-slate-100 hover:text-blue-600 hover:border border-blue-600 text-white font-semibold py-2 px-4 rounded-xl transition duration-300">
                             {buttonText}
                         </button>
                     </div>
