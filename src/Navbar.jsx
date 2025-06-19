@@ -32,13 +32,7 @@ function Navbar() {
 
             </nav>
 
-            <Routes>
-                <Route path='/' element={<Landing />} />
-                <Route path='/product' element={<Product />} />
-                <Route path='/seller' element={<Seller />} />
-                <Route path='/login' element={<Login />} />
-                {/* <Route path='/signup' element={<Register />} /> */}
-            </Routes>
+   
         </>
 
     )

@@ -3,6 +3,10 @@ import BG from './assets/bg.jpg'
 import './App.css'
 import Product from './Product'
 import { Routes, Route, Link } from 'react-router-dom'
+
+
+
+
 const Landing = () => {
     return (
         <>
@@ -21,9 +25,7 @@ const Landing = () => {
                     </button>
                 </div>
             </div>
-            <Routes>
-                <Route path='/product' element={<Product />}></Route>
-            </Routes>
+           <Link to={"/product"}>Product</Link>
 
         </>
 

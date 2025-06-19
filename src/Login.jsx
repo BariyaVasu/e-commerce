@@ -44,11 +44,6 @@ function Login() {
                 </div>
             </div>
 
-
-            <Routes>
-                <Route path="/sign" element={<Register />} />
-            </Routes>
-
         </>
     )
 }
